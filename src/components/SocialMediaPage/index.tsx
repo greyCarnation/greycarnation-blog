@@ -3,8 +3,7 @@ import styles from '@/styles/Main.module.scss'
 
 const SocialMediaPage = () => {
   return (
-    <div className={styles.containerHeader}>
-      <p className={styles.textHeader}>greyCarnation</p>
+    <div>
     </div>
   )
 }
