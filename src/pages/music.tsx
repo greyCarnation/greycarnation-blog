@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import LandingPage from '@/components/LandingPage'
+import MusicPage from '@/components/MusicPage'
 
-export default function Home() {
+export default function Music() {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <>
-          <LandingPage />
+          <MusicPage />
         </>
       </main>
     </>

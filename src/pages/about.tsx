@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import LandingPage from '@/components/LandingPage'
+import AboutPage from '@/components/AboutPage'
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <>
-          <LandingPage />
+          <AboutPage />
         </>
       </main>
     </>
