@@ -23,12 +23,30 @@ $screen-xl-min: 1200px;
     @content;
   }
 }
-.containerHeader{
+.containerHeader {
   display: grid;
   justify-content: center;
 }
 .textHeader {
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   font-size: 10rem;
+}
+.containerNavbar {
+
+}
+.gridNavbar {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.itemNavbar {
+  width: 100%;
+  margin-left: 2rem;
+}
+.textNav {
+  font-size: 3rem;
 }
 
 @include sm {
