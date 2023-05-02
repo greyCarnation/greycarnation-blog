@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import LandingPage from '@/components/LandingPage'
+import ContactPage from '@/components/ContactPage'
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <>
-          <LandingPage />
+          <ContactPage />
         </>
       </main>
     </>
