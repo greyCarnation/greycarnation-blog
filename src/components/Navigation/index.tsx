@@ -12,13 +12,13 @@ const Navigation = () => {
           </Link>
         </div>
         <div className={styles.itemNavbar}>
-          <Link href='/about'>
-            <p className={styles.textNav}>about</p>
+          <Link href='/socialmedia'>
+            <p className={styles.textNav}>socialMedia</p>
           </Link>
         </div>
         <div className={styles.itemNavbar}>
-          <Link href='/socialmedia'>
-            <p className={styles.textNav}>socialMedia</p>
+          <Link href='/about'>
+            <p className={styles.textNav}>about</p>
           </Link>
         </div>
         <div className={styles.itemNavbar}>
