@@ -8,8 +8,10 @@ const aboutText = AboutText
 const About = () => {
   return (
     <>
-      <div className={styles.postBody}>
-        <Markdown linkTarget={'_blank'}>{aboutText}</Markdown>
+      <div className={styles.containerMarkdown}>
+        <p className={styles.textMarkdown}>
+          <Markdown linkTarget={'_blank'}>{aboutText}</Markdown>
+        </p>
       </div>
     </>
   )
