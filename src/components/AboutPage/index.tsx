@@ -1,12 +1,17 @@
 import React from 'react'
-import styles from '@/styles/Main.module.scss'
+import Markdown from 'react-markdown'
+import { AboutText } from '@/assets/AboutText'
+import styles from '../../styles/Main.module.scss'
 
-const AboutPage = () => {
+const aboutText = AboutText
+
+const About = () => {
   return (
-    <div>
-    </div>
+    <>
+      <div className={styles.postBody}>
+        <Markdown linkTarget={'_blank'}>{aboutText}</Markdown>
+      </div>
+    </>
   )
 }
-
-export default AboutPage
-
+export default About
