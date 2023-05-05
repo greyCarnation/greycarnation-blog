@@ -1,12 +1,19 @@
 import React from 'react'
-import styles from '@/styles/Main.module.scss'
+import Markdown from 'react-markdown'
+import { ContactText } from '@/assets/ContactText'
+import styles from '../../styles/Main.module.scss'
 
-const ContactPage = () => {
+const contactText = ContactText
+
+const About = () => {
   return (
-    <div>
-    </div>
+    <>
+      <div className={styles.containerMarkdown}>
+        <p className={styles.textMarkdown}>
+          <Markdown linkTarget={'_blank'}>{contactText}</Markdown>
+        </p>
+      </div>
+    </>
   )
 }
-
-export default ContactPage
-
+export default About
