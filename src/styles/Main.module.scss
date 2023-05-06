@@ -23,50 +23,98 @@ $screen-xl-min: 1200px;
     @content;
   }
 }
-.containerHeader {
+
+.headerContainer {
   display: grid;
   justify-content: center;
 }
-.textHeader {
+.headerText {
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-size: 4rem;
 }
-.containerNavbar {
+.navbarContainer {
 }
-.gridNavbar {
+.navbarGrid {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr;
 }
-.itemNavbar {
+.navbarItem {
   margin-left: 2rem;
 }
-.textNav {
+.navbarText {
   font-size: 2rem;
+}
+.markdownContainer {
+  display: grid;
+  margin: auto;
+  width: 80%;
+}
+.markdownText {
+  font-size: 2.4rem;
+  text-align: left;
+}
+.projectsGridContainer {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1fr;
+  margin: auto;
+  justify-content: space-between;
+}
+.projectsItemContainer {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  margin: 1rem;
+  width: 90%;
+  height: 80vh;
+  border: solid;
+  border-color: red;
+}
+.projectImageContainer {
+  margin: 1rem;
+  padding: 1rem;
+  border: solid;
+  border-color: red;
+}
+.projectTextContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.projectText {
+  font-size: 3rem;
 }
 
 @include sm {
 }
 
 @include md {
-  .textHeader {
+  .headerText {
     font-size: 10rem;
   }
-  .gridNavbar {
+  .navbarGrid {
     grid-template-columns: 1fr 1fr;
   }
-  .itemNavbar {
+  .navbarItem {
     width: 100%;
     margin-left: 2rem;
   }
-  .textNav {
+  .navbarText {
     font-size: 3rem;
+  }
+  .markdownText {
+    font-size: 3.2rem;
+  }
+  .projectsGridContainer {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @include lg {
+  .markdownText {
+    font-size: 4.4rem;
+  }
 }
 
 @include xl {
