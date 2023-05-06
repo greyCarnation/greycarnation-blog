@@ -4,26 +4,26 @@ import styles from '../../styles/Main.module.scss'
 
 const Navigation = () => {
   return (
-    <div className={styles.containerNavbar}>
-      <div className={styles.gridNavbar}>
-        <div className={styles.itemNavbar}>
+    <div className={styles.navbarContainer}>
+      <div className={styles.navbarGrid}>
+        <div className={styles.navbarItem}>
           <Link href='/music'>
-            <p className={styles.textNav}>music</p>
+            <p className={styles.navbarText}>music</p>
           </Link>
         </div>
-        <div className={styles.itemNavbar}>
+        <div className={styles.navbarItem}>
           <Link href='/socialmedia'>
-            <p className={styles.textNav}>socialMedia</p>
+            <p className={styles.navbarText}>socialMedia</p>
           </Link>
         </div>
-        <div className={styles.itemNavbar}>
+        <div className={styles.navbarItem}>
           <Link href='/about'>
-            <p className={styles.textNav}>about</p>
+            <p className={styles.navbarText}>about</p>
           </Link>
         </div>
-        <div className={styles.itemNavbar}>
+        <div className={styles.navbarItem}>
           <Link href='/contact'>
-            <p className={styles.textNav}>contact</p>
+            <p className={styles.navbarText}>contact</p>
           </Link>
         </div>
       </div>

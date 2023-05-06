@@ -4,8 +4,8 @@ import styles from '@/styles/Main.module.scss'
 
 const LandingPage = () => {
   return (
-    <div className={styles.containerHeader}>
-      <p className={styles.textHeader}>greyCarnation</p>
+    <div className={styles.headerContainer}>
+      <p className={styles.headerText}>greyCarnation</p>
       <Navigaion />
     </div>
   )

@@ -12,17 +12,30 @@ export interface StreamingLink {
   soundcloud: string
   youtube: string
 }
-export const project: ProjectObject[] = [
+export const Projects: ProjectObject[] = [
   {
-    name: 'testProject01',
-    description: 'testDescription01',
+    name: 'softly',
+    description: '',
     trackList: ['', ''],
     imageURL: '',
-    releaseDate: '',
+    releaseDate: '05.05.2022',
     link: {
       audiomack: '',
-      bandcamp: '',
-      soundcloud: '',
+      bandcamp: 'https://greycarnation.bandcamp.com/album/softly',
+      soundcloud: 'https://soundcloud.com/greycarnation/sets/softly',
+      youtube: '',
+    },
+  },
+  {
+    name: 'no2',
+    description: '',
+    trackList: ['', ''],
+    imageURL: '',
+    releaseDate: '?',
+    link: {
+      audiomack: '',
+      bandcamp: 'https://greycarnation.bandcamp.com/album/???',
+      soundcloud: 'https://soundcloud.com/greycarnation/sets/???',
       youtube: '',
     },
   },
