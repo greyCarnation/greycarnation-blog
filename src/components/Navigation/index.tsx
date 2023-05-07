@@ -12,7 +12,7 @@ const Navigation = () => {
           </Link>
         </div>
         <div className={styles.navbarItem}>
-          <Link href='/socialmedia'>
+          <Link href='/social'>
             <p className={styles.navbarText}>socialMedia</p>
           </Link>
         </div>

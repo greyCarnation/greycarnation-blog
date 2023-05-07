@@ -7,9 +7,9 @@ const MusicPage = () => {
   return (
     <>
       <div className={styles.markdownContainer}>
-        <p className={styles.markdownText}>
+        <h1 className={styles.markdownText}>
           <Markdown># __music___</Markdown>
-        </p>
+        </h1>
       </div>
       <ProjectList />
     </>

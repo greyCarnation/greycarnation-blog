@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import SocialMediaPage from '@/components/SocialMediaPage'
 
-export default function SocialMedia() {
+export default function Social() {
   return (
     <>
       <Head>
