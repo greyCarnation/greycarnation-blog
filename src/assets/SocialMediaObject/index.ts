@@ -3,7 +3,7 @@ export interface SocialMediaObject {
   link: string | string[]
   imageURL: string | string[]
 }
-export const Projects: SocialMediaObject[] = [
+export const SocialPlatforms : SocialMediaObject[] = [
   {
     platform: 'twitter',
     link: 'https://twitter.com/greyCarnation_',
