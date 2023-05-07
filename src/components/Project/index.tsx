@@ -9,7 +9,7 @@ const Project = ({ project }: any) => {
       <div className={styles.projectsItemContainer}>
         <div className={styles.projectImageContainer}>
           <Link target='_blank' href={project.link.bandcamp}>
-            <img src={project.imageURL} alt={project.title} />
+            <img className={styles.projectImage} src={project.imageURL} alt={project.title} />
           </Link>
         </div>
         <div className={styles.projectTextContainer}>
@@ -20,7 +20,7 @@ const Project = ({ project }: any) => {
             <br />
             streaming_:
           </p>
-          <p className={styles.projectLinksText}>
+          <p className={styles.projectLinks}>
             <Link target='_blank' href={project.link.audiomack}>
               audiomack
             </Link>

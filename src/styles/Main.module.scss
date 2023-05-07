@@ -67,11 +67,15 @@ $screen-xl-min: 1200px;
   display: grid;
   grid-template-rows: 1fr 0.5fr;
   width: 90%;
-  height: 70vh;
+  height: 60vh;
 }
 .projectImageContainer {
   margin: 1rem;
   margin-top: 0;
+}
+.projectImage {
+  width: 30rem;
+  height: 30rem;
 }
 .projectTextContainer {
   display: grid;
@@ -84,15 +88,15 @@ $screen-xl-min: 1200px;
   display: grid;
   margin: 1rem;
   padding: 1rem;
-  grid-template-columns: 1fr; 
+  grid-template-columns: 1fr;
 }
 .projectText {
-  font-size: 3rem;
+  font-size: 1.8rem;
   margin-bottom: 0;
 }
-.projectLinksText {
+.projectLinks {
   margin-top: 0;
-  font-size: 3rem;
+  font-size: 1.8rem;
   text-align: right;
 }
 
@@ -118,6 +122,16 @@ $screen-xl-min: 1200px;
   }
   .projectsGridContainer {
     grid-template-columns: 1fr 1fr;
+  }
+  .projectImage {
+    width: 60rem;
+    height: 60rem;
+  }
+  .projectText {
+    font-size: 3rem;
+  }
+  .projectLinks {
+    font-size: 3rem;
   }
 }
 
