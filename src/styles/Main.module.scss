@@ -58,32 +58,42 @@ $screen-xl-min: 1200px;
 }
 .projectsGridContainer {
   display: grid;
+  margin: auto;
   width: 80%;
   grid-template-columns: 1fr;
-  margin: auto;
   justify-content: space-between;
 }
 .projectsItemContainer {
   display: grid;
-  grid-template-rows: 3fr 1fr;
-  margin: 1rem;
+  grid-template-rows: 1fr 0.5fr;
   width: 90%;
-  height: 80vh;
-  border: solid;
-  border-color: red;
+  height: 70vh;
 }
 .projectImageContainer {
   margin: 1rem;
-  padding: 1rem;
-  border: solid;
-  border-color: red;
+  margin-top: 0;
 }
 .projectTextContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
+  margin-bottom: 0rem;
+  padding: 1rem;
+  grid-template-columns: 1fr;
+}
+.projectTextLinkContainer {
+  display: grid;
+  margin: 1rem;
+  padding: 1rem;
+  grid-template-columns: 1fr; 
 }
 .projectText {
   font-size: 3rem;
+  margin-bottom: 0;
+}
+.projectLinksText {
+  margin-top: 0;
+  font-size: 3rem;
+  text-align: right;
 }
 
 @include sm {
