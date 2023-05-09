@@ -32,6 +32,10 @@ const Project = ({ project }: any) => {
             <Link target='_blank' href={project.link.soundcloud}>
               soundcloud
             </Link>
+            <br />
+            <Link target='_blank' href={project.link.youtube}>
+              youtube
+            </Link>
           </p>
         </div>
       </div>
