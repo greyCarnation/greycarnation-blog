@@ -23,7 +23,7 @@ export const Projects: ProjectObject[] = [
       audiomack: 'https://audiomack.com/greycarnation/album/softly',
       bandcamp: 'https://greycarnation.bandcamp.com/album/softly',
       soundcloud: 'https://soundcloud.com/greycarnation/sets/softly',
-      youtube: 'https://www.youtube.com/watch?v=ISVokuEom0Y',
+      youtube: 'https://youtu.be/3iorO6sb7Iw',
     },
   },
 ]
