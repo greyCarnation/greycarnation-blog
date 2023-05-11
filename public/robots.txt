@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /api/
+Sitemap: https://greycarnation.com/sitemap.xml
