@@ -9,9 +9,9 @@ const About = () => {
   return (
     <>
       <div className={styles.markdownContainer}>
-        <h1 className={styles.markdownText}>
+        <p className={styles.markdownText}>
           <Markdown linkTarget={'_blank'}>{contactText}</Markdown>
-        </h1>
+        </p>
       </div>
     </>
   )

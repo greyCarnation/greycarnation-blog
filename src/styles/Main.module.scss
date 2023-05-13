@@ -50,10 +50,10 @@ $screen-xl-min: 1200px;
 .markdownContainer {
   display: grid;
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 .markdownText {
-  font-size: 2.4rem;
+  font-size: rem;
   text-align: left;
 }
 .projectsGridContainer {
@@ -116,6 +116,9 @@ $screen-xl-min: 1200px;
   }
   .navbarText {
     font-size: 3rem;
+  }
+  .markdownContainer {
+    width: 80%;
   }
   .markdownText {
     font-size: 3.2rem;
