@@ -1,5 +1,4 @@
-export const ContactText: string=`# __contact___
-
+export const ContactText: string=`
 greyCarnation is available for commissions and collaborations.
 
 feel free to contact greyCarnation with requests and inquiries, or if you 

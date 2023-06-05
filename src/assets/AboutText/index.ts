@@ -1,5 +1,4 @@
-export const AboutText: string=`# __about___
-
+export const AboutText: string=`
 _greyCarnation_ is a multi-media art project created by maxwell wine that 
 focuses on the human response to art. 
 

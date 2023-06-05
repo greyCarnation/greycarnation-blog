@@ -9,7 +9,12 @@ const Project = ({ project }: any) => {
       <div className={styles.projectsItemContainer}>
         <div className={styles.projectImageContainer}>
           <Link target='_blank' href={project.link.bandcamp}>
-            <img className={styles.projectImage} src={project.imageURL} alt={project.title} />
+            <img
+              className={styles.projectImage}
+              src={project.imageURL}
+              title={project.title}
+              alt={project.title}
+            />
           </Link>
         </div>
         <div className={styles.projectTextContainer}>
