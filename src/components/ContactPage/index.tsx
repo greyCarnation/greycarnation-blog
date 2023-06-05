@@ -1,5 +1,6 @@
 import React from 'react'
 import Markdown from 'react-markdown'
+import NavigationHome from '@/components/NavigationHome'
 import { ContactText } from '@/assets/ContactText'
 import styles from '../../styles/Main.module.scss'
 
@@ -9,9 +10,10 @@ const About = () => {
   return (
     <>
       <div className={styles.markdownContainer}>
-        <p className={styles.markdownText}>
+        <h1 className={styles.markdownText}>
+          <NavigationHome />
           <Markdown linkTarget={'_blank'}>{contactText}</Markdown>
-        </p>
+        </h1>
       </div>
     </>
   )

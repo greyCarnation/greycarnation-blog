@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Markdown from 'react-markdown'
+import NavigationHome from '@/components/NavigationHome'
 import styles from '@/styles/Main.module.scss'
 import { SocialPlatforms } from '@/assets/SocialMediaObject'
 
@@ -10,6 +11,7 @@ const SocialMediaPage = () => {
       <div className={styles.markdownContainer}>
         <h1 className={styles.markdownText}>
           <Markdown># __socialMedia___</Markdown>
+          <NavigationHome />
         </h1>
       </div>
       {SocialPlatforms.map((socialPlatfrom: any, id: number) => {
