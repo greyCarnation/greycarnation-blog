@@ -28,6 +28,14 @@ $screen-xl-min: 1200px;
   display: grid;
   justify-content: center;
 }
+.pageHeaderContainer {
+  display: grid;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+}
 .headerText {
   margin: auto;
   margin-top: 3rem;
@@ -47,13 +55,27 @@ $screen-xl-min: 1200px;
 .navbarText {
   font-size: 2rem;
 }
+.navHomeContainer {
+  margin: auto;
+  margin-right: 2.5rem;
+}
+.navHomeText {
+  margin-left: 0;
+  font-size: 1.6rem;
+  text-align: right;
+}
 .markdownContainer {
   display: grid;
   margin: auto;
   width: 90%;
 }
 .markdownText {
-  font-size: rem;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+.markdownTextHeadline {
+  margin: auto 0;
+  font-size: 4rem;
   text-align: left;
 }
 .projectsGridContainer {
@@ -139,6 +161,12 @@ $screen-xl-min: 1200px;
 }
 
 @include lg {
+  .navHomeText {
+    font-size: 4rem;
+  }
+  .markdownTextHeadline {
+    font-size: 9rem;
+  }
   .markdownText {
     font-size: 4.4rem;
   }
