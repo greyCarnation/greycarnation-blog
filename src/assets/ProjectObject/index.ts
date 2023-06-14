@@ -26,4 +26,17 @@ export const Projects: ProjectObject[] = [
       youtube: 'https://youtu.be/3iorO6sb7Iw',
     },
   },
+  {
+    title: 'Figmentum',
+    description: '',
+    trackList: ['', ''],
+    imageURL: 'https://imagedelivery.net/mKjOxek3QZwwBWUu82qeLg/5f20fea0-d87d-4cca-8ea9-f8307ad32d00/public',
+    releaseDate: '06.16.2023',
+    link: {
+      audiomack: 'https://audiomack.com/greycarnation/album/figmentum',
+      bandcamp: 'https://greycarnation.bandcamp.com/album/figmentum',
+      soundcloud: 'https://soundcloud.com/greycarnation/sets/figmentum',
+      youtube: '',
+    },
+  },
 ]
