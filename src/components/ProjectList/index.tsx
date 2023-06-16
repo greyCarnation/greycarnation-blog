@@ -6,7 +6,7 @@ import Project from '@/components/Project'
 const ItemGrid = () => {
   return (
     <div className={styles.projectsGridContainer}>
-      {Projects.map((project: any, id: number) => {
+      {Projects.slice(0).reverse().map((project: any, id: number) => {
         return (
           <>
             <Project key={id} project={project} />
